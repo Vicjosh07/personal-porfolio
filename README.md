@@ -42,6 +42,7 @@ personal_portfolio/
 ├── media/                      # User-uploaded media files
 ├── luther-1.0.0/              # Original template files
 ├── requirements.txt            # Python dependencies
+├── runtime.txt                 # Python version specification
 ├── Procfile                    # Heroku deployment configuration
 └── manage.py                   # Django management script
 ```
@@ -166,6 +167,7 @@ Default theme uses dark colors with professional styling. Modify CSS variables t
 
 Your project is already configured for Heroku deployment with:
 - ✅ `requirements.txt` - Dependencies specification
+- ✅ `runtime.txt` - Python version specification (3.11.0)
 - ✅ `Procfile` - Heroku process configuration
 - ✅ `gunicorn` - Production WSGI server
 - ✅ `whitenoise` - Static files serving
