@@ -119,10 +119,7 @@ Visit `http://127.0.0.1:8000` to view your portfolio website.
 
 ### Admin Access
 - **URL**: `http://127.0.0.1:8000/admin/`
-- **Default Credentials** (for development):
-  - Username: `portfolio`
-  - Password: `portfolio`
-
+  
 ### Media Files
 The project handles various types of media files:
 - **Profile Pictures**: `media/personal/`
