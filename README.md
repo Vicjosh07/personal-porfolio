@@ -43,6 +43,7 @@ personal_portfolio/
 ├── luther-1.0.0/              # Original template files
 ├── requirements.txt            # Python dependencies
 ├── runtime.txt                 # Python version specification
+├── build.sh                    # Render build script
 ├── Procfile                    # Heroku deployment configuration
 └── manage.py                   # Django management script
 ```
@@ -163,21 +164,73 @@ Default theme uses dark colors with professional styling. Modify CSS variables t
 
 ## 🚀 Deployment
 
-### Heroku Deployment (Ready to Deploy!)
+### Render Deployment (Ready to Deploy!)
 
-Your project is already configured for Heroku deployment with:
+Your project is already configured for Render deployment with:
 - ✅ `requirements.txt` - Dependencies specification
 - ✅ `runtime.txt` - Python version specification (3.11.0)
-- ✅ `Procfile` - Heroku process configuration
+- ✅ `build.sh` - Render build script
 - ✅ `gunicorn` - Production WSGI server
 - ✅ `whitenoise` - Static files serving
+- ✅ PostgreSQL support via `dj-database-url`
+
+#### Quick Render Deploy:
+
+1. **Push your code to GitHub**
+   ```bash
+   git add .
+   git commit -m "Prepare for Render deployment"
+   git push origin main
+   ```
+
+2. **Create Render Account & Connect Repository**
+   - Go to [Render Dashboard](https://dashboard.render.com/)
+   - Click "New" → "Web Service"
+   - Connect your GitHub repository (`personal-porfolio`)
+
+3. **Configure Web Service Settings**
+   - **Name**: `personal-portfolio`
+   - **Environment**: `Python 3`
+   - **Build Command**: `./build.sh`
+   - **Start Command**: `gunicorn personal_portfolio.wsgi:application`
+
+4. **Add Environment Variables**
+   ```
+   SECRET_KEY=your-secret-key-here-generate-new-one
+   DEBUG=False
+   DJANGO_SETTINGS_MODULE=personal_portfolio.settings
+   ```
+
+5. **Add PostgreSQL Database**
+   - Click "New" → "PostgreSQL"
+   - Name: `portfolio-db`
+   - Link it to your web service (DATABASE_URL will be auto-added)
+
+6. **Deploy**
+   - Click "Create Web Service"
+   - Render will automatically build and deploy your app
+
+#### Environment Variables Required:
+- `SECRET_KEY`: Generate a new secret key for production
+- `DEBUG`: Set to `False`
+- `DJANGO_SETTINGS_MODULE`: `personal_portfolio.settings`
+- `DATABASE_URL`: Automatically provided by Render PostgreSQL
+
+#### Post-Deployment Setup:
+```bash
+# Access Render shell to create superuser
+# Go to your service dashboard → Shell tab
+python manage.py createsuperuser
+```
+
+### Alternative: Heroku Deployment
+
+Your project also supports Heroku with the existing `Procfile`:
+- ✅ `Procfile` - Heroku process configuration
 
 #### Quick Heroku Deploy:
 ```bash
-# Install Heroku CLI (if not installed)
-# Visit: https://devcenter.heroku.com/articles/heroku-cli
-
-# Login to Heroku
+# Install Heroku CLI and login
 heroku login
 
 # Create Heroku app
@@ -188,30 +241,11 @@ heroku config:set SECRET_KEY='your-secret-key-here'
 heroku config:set DEBUG=False
 
 # Deploy
-git add .
-git commit -m "Deploy to Heroku"
 git push heroku main
 
-# Run migrations on Heroku
+# Run migrations and create superuser
 heroku run python manage.py migrate
-
-# Create superuser on Heroku
 heroku run python manage.py createsuperuser
-
-# Open your app
-heroku open
-```
-
-#### Additional Heroku Configuration:
-```bash
-# Add Heroku Postgres (optional)
-heroku addons:create heroku-postgresql:hobby-dev
-
-# View logs
-heroku logs --tail
-
-# Scale dynos
-heroku ps:scale web=1
 ```
 
 ### Production Considerations:
@@ -234,12 +268,12 @@ gunicorn personal_portfolio.wsgi:application
 ```
 
 ### Recommended Hosting:
-- **Heroku** (Ready to deploy! See deployment section above)
+- **Render** (Ready to deploy! See deployment section above)
+- **Heroku** (Also ready to deploy! See alternative deployment)
 - DigitalOcean
 - AWS
 - PythonAnywhere
 - Railway
-- Render
 
 ## 📂 File Organization
 
