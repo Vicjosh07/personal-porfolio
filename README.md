@@ -171,7 +171,8 @@ Your project is already configured for Render deployment with:
 - ✅ `render.yaml` - Render configuration file
 - ✅ `gunicorn` - Production WSGI server
 - ✅ `whitenoise` - Static files serving
-- ✅ PostgreSQL support via `dj-database-url`
+- ✅ PostgreSQL support via `dj-database-url` 
+- ✅ **Cloudinary integration** - Persistent media storage
 
 #### Method 1: Using render.yaml (Recommended)
 
@@ -227,6 +228,11 @@ Your project is already configured for Render deployment with:
 - `DEBUG`: Set to `False`
 - `DJANGO_SETTINGS_MODULE`: `personal_portfolio.settings`
 - `DATABASE_URL`: Automatically provided by Render PostgreSQL
+- `CLOUDINARY_CLOUD_NAME`: Your Cloudinary cloud name
+- `CLOUDINARY_API_KEY`: Your Cloudinary API key  
+- `CLOUDINARY_API_SECRET`: Your Cloudinary API secret
+
+**Note**: Cloudinary credentials are already configured in `render.yaml` for automatic setup.
 
 #### Post-Deployment Setup:
 ```bash

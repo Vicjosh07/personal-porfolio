@@ -1,0 +1,2545 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$FDejFLkG5aDA9AdElFnuA9$S8zazT0jetvoMqpk99kH+kiqrG8oFtPk6oRghKWRnYk=",
+    "last_login": "2025-07-22T11:38:31.979Z",
+    "is_superuser": true,
+    "username": "portfolio",
+    "first_name": "",
+    "last_name": "",
+    "email": "victorjosh4me@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-13T20:48:13.262Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cyc4e9susecx0r8v9j1ink1vio1p7qgp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pBCC8y4dO8ZyDCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-juIslDj9boH4keoO4p3qrUludV3mIHdFHrTLa4vpeTncv4NCvXxrsAO6aAYXiYEDOsicGZNSlieyaLLNmnECZ1iTceOYEwZSGgkAIYv3B-rZOAc:1ueBKJ:VUnXNsYCpUrez3Q1QqwIBnbAhHS2_f8jTAVlj9-hP9Q",
+    "expire_date": "2025-08-05T11:38:31.999Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lcezkajm6yn02v4zaa9nj3sp9htyk5ih",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSG8oS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZlJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv7UJQiYBBVCD0VpkkIWC9tYFQrQpeYVSExk0E1ktnBdTAVIOlJDWGvb-AOrrN7Q:1ucQmo:GHMRmXZL9l3uUEJ6_FiM-wJ5FbyPkzs9bgjW9_fbjAg",
+    "expire_date": "2025-07-31T15:44:42.044Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z04n26nm3yzjggj9sxcd5dpynfmq3ono",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSG8oS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZlJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv7UJQiYBBVCD0VpkkIWC9tYFQrQpeYVSExk0E1ktnBdTAVIOlJDWGvb-AOrrN7Q:1ucKi3:2nalv531-8UBaCxG0Lj2h84l8kfa-a-dP_oYI021MSY",
+    "expire_date": "2025-07-31T09:15:23.765Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zavs5z3ya9gc6vv31fbpe7jcq1xnueec",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSG8oS7d-w1kBgapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKc2ZlJdvrdENKD2g7yHdqt89TbuszId4UfdPBrz_S8HO7fQYVRv7UJQiYBBVCD0VpkkIWC9tYFQrQpeYVSExk0E1ktnBdTAVIOlJDWGvb-AOrrN7Q:1uc1DY:8jsbuf7sjm5gL9qvy75Z6bQEoMnliBNEb7CT9hkuJ_E",
+    "expire_date": "2025-07-30T12:26:36.335Z"
+  }
+},
+{
+  "model": "home.intro",
+  "pk": 1,
+  "fields": {
+    "headline": "Hey, I’m Josh — <br> a curious mind writing code, <br> wrangling data, <br> and building smart things with heart.",
+    "profile_pic": "profile_pics/BEST_-_Edited_-_2_resized.jpg",
+    "about": "Hi, I’m Josh — a curious mind from Abuja with a heart for solving problems and a growing passion for AI, data science, and all things tech. I’m currently pursuing a degree in Computer Science at the University of Abuja, and I love using code to build things that make life easier, smarter, and sometimes just more fun.\r\n I’ve been exploring Python, Django, data analysis, and machine learning — constantly learning and growing, one project at a time.",
+    "resume": "personal/Olaleye_Joshua_-_RESUME.pdf"
+  }
+},
+{
+  "model": "home.expertise",
+  "pk": 1,
+  "fields": {
+    "expertise": "Python & Django,  Machine Learning, Version Control, Responsive Web Design, APIs , Data Analysis & Visualization, Problem Solving"
+  }
+},
+{
+  "model": "home.experience",
+  "pk": 1,
+  "fields": {
+    "title": "Data Entry Volunteer",
+    "company": "Globaltech Empowerment Foundation, Abuja Branch.",
+    "start_date": "2017-04-01",
+    "end_date": "2019-02-20",
+    "is_current": false,
+    "description": "Supported organizational workflows by entering and formatting large volumes of data into spreadsheets. Maintained high accuracy levels while digitizing reports and contributing to productive and timely reports."
+  }
+},
+{
+  "model": "home.experience",
+  "pk": 2,
+  "fields": {
+    "title": "Media Officer",
+    "company": "RCCG Christ the Alpha Zone",
+    "start_date": "2020-05-03",
+    "end_date": "2024-12-08",
+    "is_current": false,
+    "description": "Managed real-time visual content for weekly services using EasyWorship and VideoPsalm. Oversaw projector displays, coordinated with audio teams, and ensured seamless transitions during live worship streaming and teaching events."
+  }
+},
+{
+  "model": "home.experience",
+  "pk": 3,
+  "fields": {
+    "title": "Data Science Intern",
+    "company": "Unified Mentors (Remote)",
+    "start_date": "2025-01-01",
+    "end_date": "2025-02-01",
+    "is_current": false,
+    "description": "Worked on data-driven projects including customer satisfaction prediction and personalized health recommendation systems. Gained practical experience with machine learning models, feature engineering, data visualization, and statistical analysis."
+  }
+},
+{
+  "model": "home.education",
+  "pk": 3,
+  "fields": {
+    "institution": "School for the Gifted",
+    "degree": "High School diploma, WASSCE",
+    "start_date": "2021-01-13",
+    "end_date": "2023-08-16",
+    "is_current": false,
+    "description": "Attended the School for the Gifted, Gwagwalada, where I built a strong academic foundation, developed a passion for problem-solving, and cultivated leadership, teamwork, and critical thinking skills in a competitive and intellectually driven environment."
+  }
+},
+{
+  "model": "home.education",
+  "pk": 4,
+  "fields": {
+    "institution": "University of Abuja",
+    "degree": "BSc. Degree in Computer Science",
+    "start_date": "2023-09-11",
+    "end_date": null,
+    "is_current": true,
+    "description": "Pursuing a Bachelor's degree in Computer Science at the University of Abuja, with a strong focus on software development, data structures, algorithms, and real-world problem solving through technology."
+  }
+},
+{
+  "model": "home.project",
+  "pk": 1,
+  "fields": {
+    "title": "Deployed Healthcare Recommendation service",
+    "category": "Machine Learning, Django",
+    "link": "https://predict-diabetes-gvqr.onrender.com/",
+    "description": "The project successfully developed a django-deployed robust diabetes prediction system, achieving high accuracy and providing meaningful recommendations.",
+    "created_at": "2025-07-17T09:23:39.886Z",
+    "projectImg_small": "projects/small_img/healthcare_new.png",
+    "projectImg_big": "projects/big_img/healthcare2.png",
+    "projectImg_relative": "projects/relative_img/healthcare1_new.png"
+  }
+},
+{
+  "model": "home.project",
+  "pk": 2,
+  "fields": {
+    "title": "E-Learning Integrated system (Backend)",
+    "category": "Website Backend",
+    "link": "https://github.com/Vicjosh07/Online-Learning-Platform-backend?tab=readme-ov-file#-installation",
+    "description": "This project began as a school student project, which I scaled into a comprehensive demo LMS capable of being expanded to serve real institutional needs. This platform supports multi-role user authentication (students, lecturers, and visitors), course management, dashboard personalization, e.t.c..",
+    "created_at": "2025-07-17T09:40:26.843Z",
+    "projectImg_small": "projects/small_img/E-learn_new_Y3Jo61f.png",
+    "projectImg_big": "projects/big_img/E-learn2_5DJachX.png",
+    "projectImg_relative": "projects/relative_img/E-learn1_new_AHavnCv.png"
+  }
+},
+{
+  "model": "home.project",
+  "pk": 3,
+  "fields": {
+    "title": "Data and Exploratory Analysis",
+    "category": "Data Analysis",
+    "link": "https://www.datacamp.com/datalab/w/d6050f3e-9614-4b8d-bdff-6f870434da50/edit",
+    "description": "In my DataCamp's Python Data associate Spectrum Shades LLC Project, I conducted data cleaning, exploratory analysis, and statistical analysis to get data-driven insights and strategic analysis across four structured tasks.",
+    "created_at": "2025-07-17T09:42:04.572Z",
+    "projectImg_small": "projects/small_img/Datacamp_new.png",
+    "projectImg_big": "projects/big_img/Datacamp2.png",
+    "projectImg_relative": "projects/relative_img/Datacamp1_new.png"
+  }
+},
+{
+  "model": "home.project",
+  "pk": 4,
+  "fields": {
+    "title": "Predicting Customer satisfaction",
+    "category": "Data Science",
+    "link": "https://github.com/Vicjosh07/customer_satisfaction_project",
+    "description": "This project focuses on predicting customer satisfaction levels while also highlighting data visualizations for an airline service based on various <b>key</b> factors. This provides valuable insights with comparisons, relationships and plots into <b>vital</b> areas where <b>improvements can enhance passenger experience.</b>",
+    "created_at": "2025-07-17T09:48:36.606Z",
+    "projectImg_small": "projects/small_img/airline_new.png",
+    "projectImg_big": "projects/big_img/airline2_new.png",
+    "projectImg_relative": "projects/relative_img/airline1_new.png"
+  }
+},
+{
+  "model": "home.project",
+  "pk": 5,
+  "fields": {
+    "title": "Healthcare recommender Model and Algorithm",
+    "category": "Machine Learning",
+    "link": "https://github.com/Vicjosh07/Predicting-Diabetes",
+    "description": "This project uses machine learning to analyze patient data and predict diabetes levels by processing key health indicators. It also suggests lifestyle or medical adjustments, aiming to improve diabetes care with generated actionable recommendations.",
+    "created_at": "2025-07-17T09:50:22.441Z",
+    "projectImg_small": "projects/small_img/diabetes_new.png",
+    "projectImg_big": "projects/big_img/diabetes2_new.png",
+    "projectImg_relative": "projects/relative_img/diabetes1_new.png"
+  }
+},
+{
+  "model": "home.project",
+  "pk": 6,
+  "fields": {
+    "title": "GitHub Repo QuickSearch CLI Tool",
+    "category": "Python: Automation",
+    "link": "https://drive.google.com/file/d/1kfa5vFLRKLl29y7ZepYWpH7LNvRlHR44/view?usp=sharing",
+    "description": "A simple yet functional Python command-line script that automates GitHub repository search. It scrapes the top repositories' results based on a user's search keywords and opens them in the browser instantly.\r\nThis was one of my earliest scripting projects, where I explored: HTTP requests, BeautifulSoup, webbrowser etc..",
+    "created_at": "2025-07-17T09:51:01.899Z",
+    "projectImg_small": "projects/small_img/github_new.png",
+    "projectImg_big": "projects/big_img/github2.png",
+    "projectImg_relative": "projects/relative_img/github1_new.png"
+  }
+},
+{
+  "model": "home.certificates",
+  "pk": 1,
+  "fields": {
+    "title": "Python Data Associate",
+    "company_name": "DataCamp",
+    "type": "Data Management",
+    "company_logo": "certificates/logo/datacamp-01.png",
+    "certificateImg_big": "certificates/big_img/python_data_associate.jpg",
+    "certificate_url": "https://www.datacamp.com/certificate/PDA0019837335369",
+    "created_at": "2025-07-19T15:57:23.475Z"
+  }
+},
+{
+  "model": "home.certificates",
+  "pk": 2,
+  "fields": {
+    "title": "Data Science(Intern)",
+    "company_name": "Unified Mentors",
+    "type": "Data Science",
+    "company_logo": "certificates/logo/unified-02.png",
+    "certificateImg_big": "certificates/big_img/Unified_mentors_Certificate.jpg",
+    "certificate_url": "https://www.unifiedmentor.com/verify-certificate/UMID20122410137",
+    "created_at": "2025-07-19T15:57:34.299Z"
+  }
+},
+{
+  "model": "home.certificates",
+  "pk": 3,
+  "fields": {
+    "title": "Statement of Accomplishment",
+    "company_name": "DataCamp",
+    "type": "Data Fundamentals",
+    "company_logo": "certificates/logo/datacamp-01_TG4YBg6.png",
+    "certificateImg_big": "certificates/big_img/Python_Data_Fundamentals.jpg",
+    "certificate_url": "https://www.datacamp.com/completed/statement-of-accomplishment/track/76505688ea2a8ce45df31114ed3b25349826274d?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa&utm_source=copylink",
+    "created_at": "2025-07-19T16:01:13.661Z"
+  }
+},
+{
+  "model": "home.certificates",
+  "pk": 4,
+  "fields": {
+    "title": "Intro to Machine Learning",
+    "company_name": "Kaggle",
+    "type": "Machine Learning",
+    "company_logo": "certificates/logo/kaggle-03.png",
+    "certificateImg_big": "certificates/big_img/Joshua_Olaleye_-_Intro_to_Machine_Learning.png",
+    "certificate_url": "https://www.kaggle.com/learn/certification/vicjosh0709/intro-to-machine-learning",
+    "created_at": "2025-07-19T16:07:19.350Z"
+  }
+},
+{
+  "model": "home.certificates",
+  "pk": 5,
+  "fields": {
+    "title": "Intro to Deep Learning",
+    "company_name": "Kaggle",
+    "type": "Deep Learning",
+    "company_logo": "certificates/logo/kaggle-03_gpCpj5f.png",
+    "certificateImg_big": "certificates/big_img/Joshua_Olaleye_-_Intro_to_Deep_Learning.png",
+    "certificate_url": "https://www.kaggle.com/learn/certification/vicjosh0709/intro-to-deep-learning",
+    "created_at": "2025-07-19T16:09:40.610Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-13T22:27:54.589Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "Education object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-13T22:38:03.398Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "Bachelor of Science in Computer Science from University of Abuja",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Degree\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-13T22:38:06.005Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "Bachelor of Science in Computer Science from University of Abuja",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-13T22:42:22.744Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "2",
+    "object_repr": "Bachelors of Science in Computer Science from University of Abuja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-13T22:46:30.871Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "2",
+    "object_repr": "High School diploma, WASSCE in Sciences & General studies from School for the Gifted",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Institution\", \"Degree\", \"Field of study\", \"Start date\", \"End date\", \"Is current\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-13T22:47:02.150Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "Bachelor of Science in Computer Science from University of Abuja",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-13T22:56:15.294Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "2",
+    "object_repr": "High School diploma, WASSCE from School for the Gifted",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-13T22:56:32.747Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "BSc in Computer Science from University of Abuja",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Degree\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-13T22:56:58.431Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "BSc. Degree in Computer Science from University of Abuja",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Degree\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-14T00:37:06.591Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-14T00:37:16.078Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-14T00:37:25.486Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-14T00:44:23.743Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Headline\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-14T00:46:13.558Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-14T00:55:51.892Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-14T20:18:28.482Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "expertise"
+    ],
+    "object_id": "1",
+    "object_repr": "Expertise object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-14T22:00:36.366Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "expertise"
+    ],
+    "object_id": "1",
+    "object_repr": "Expertise object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Expertise\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-14T22:26:57.110Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "experience"
+    ],
+    "object_id": "1",
+    "object_repr": "Experience object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-14T22:37:31.239Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "experience"
+    ],
+    "object_id": "2",
+    "object_repr": "Media Officer at RCCG Christ the Alpha Zone",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-14T22:41:05.101Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "experience"
+    ],
+    "object_id": "3",
+    "object_repr": "Data Science Intern at Unified Mentors (Remote)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-14T22:56:30.810Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "2",
+    "object_repr": "High School diploma, WASSCE from School for the Gifted",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-14T22:57:11.226Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "3",
+    "object_repr": "High School diploma, WASSCE from School for the Gifted",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-14T22:57:24.761Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "1",
+    "object_repr": "BSc. Degree in Computer Science from University of Abuja",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-14T22:58:00.683Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "education"
+    ],
+    "object_id": "4",
+    "object_repr": "BSc. Degree in Computer Science from University of Abuja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-16T12:40:38.199Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Project object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-17T09:16:29.157Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation system",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-17T09:16:35.892Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation system",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-17T09:40:26.854Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated syytem (Backend)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-17T09:42:04.576Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-17T09:42:19.073Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-07-17T09:42:50.774Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-07-17T09:48:36.614Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-07-17T09:50:22.443Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-07-17T09:51:01.903Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-07-17T10:11:21.083Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-07-17T10:11:26.951Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-07-17T10:12:34.983Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-07-17T10:12:40.190Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-07-17T10:12:49.588Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-07-17T10:13:05.501Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-07-17T10:13:26.901Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-07-17T10:14:48.553Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-07-17T10:14:54.710Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-07-17T10:15:04.334Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-07-17T10:15:10.263Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-07-17T10:15:13.437Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-07-17T10:15:17.201Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-07-17T10:15:22.223Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-07-17T10:15:48.249Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-07-17T10:15:58.689Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-07-17T10:16:31.566Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-07-17T10:17:42.392Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-07-17T10:19:54.243Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-07-17T10:26:40.570Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-07-17T10:27:06.033Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-07-17T10:52:37.085Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-07-17T10:58:17.958Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-07-17T15:48:57.680Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-07-17T15:49:53.740Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-07-17T15:50:13.059Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-07-17T15:52:05.250Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-07-17T15:52:45.046Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-07-17T15:53:32.272Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-07-17T15:54:19.386Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-07-17T15:55:17.936Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-07-17T16:01:25.682Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-07-17T16:29:09.639Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-07-17T22:26:59.733Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-07-17T22:32:10.770Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-07-17T23:39:55.692Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-07-17T23:40:15.196Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-07-18T23:59:51.958Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-07-19T00:00:10.068Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-07-19T00:00:27.179Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-07-19T00:00:52.502Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-07-19T00:01:17.591Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-07-19T00:01:33.420Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-07-19T10:50:58.146Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-07-19T10:51:12.796Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-07-19T10:51:43.712Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-07-19T10:51:56.162Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-07-19T10:52:13.847Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-07-19T10:53:00.688Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-07-19T12:25:13.017Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-07-19T12:26:15.955Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-07-19T12:27:20.116Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "1",
+    "object_repr": "Deployed Healthcare Recommendation service",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-07-19T12:27:54.890Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-07-19T12:28:23.000Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "3",
+    "object_repr": "Data and Exploratory Analysis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-07-19T12:29:03.022Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-07-19T12:29:41.071Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-07-19T12:30:14.946Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "6",
+    "object_repr": "GitHub Repo QuickSearch CLI Tool",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-07-19T12:34:09.417Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "5",
+    "object_repr": "Healthcare recommender Model and Algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-07-19T12:34:40.070Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "4",
+    "object_repr": "Predicting Customer satisfaction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-07-19T15:51:19.772Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-07-19T15:57:34.305Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-07-19T16:01:13.665Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "3",
+    "object_repr": "Statement of Accomplishment - DataCamp",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-07-19T16:07:19.354Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "4",
+    "object_repr": "Intro to Machine Learning - Kaggle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-07-19T16:09:40.620Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "5",
+    "object_repr": "Intro to Deep Learning - Kaggle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-07-19T16:20:11.247Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-07-19T16:20:27.552Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-07-19T16:21:05.077Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "3",
+    "object_repr": "Statement of Accomplishment - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-07-19T16:21:20.807Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "4",
+    "object_repr": "Intro to Machine Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-07-19T16:21:45.824Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "5",
+    "object_repr": "Intro to Deep Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-07-19T20:41:41.168Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-07-19T21:16:27.995Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-07-19T21:18:27.302Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-07-19T21:18:28.448Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-07-19T21:18:30.402Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-07-19T21:18:41.023Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-07-19T21:20:12.568Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-07-19T21:21:06.829Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-07-19T21:21:36.934Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "3",
+    "object_repr": "Statement of Accomplishment - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-07-19T21:22:13.140Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "4",
+    "object_repr": "Intro to Machine Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-07-19T21:22:48.991Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "5",
+    "object_repr": "Intro to Deep Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-07-19T21:25:38.717Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-07-19T21:29:07.246Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-07-19T21:33:25.178Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "1",
+    "object_repr": "Python Data Associate - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-07-19T21:33:46.718Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-07-19T21:34:16.364Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "3",
+    "object_repr": "Statement of Accomplishment - DataCamp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-07-19T21:34:39.280Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "4",
+    "object_repr": "Intro to Machine Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-07-19T21:35:05.192Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "5",
+    "object_repr": "Intro to Deep Learning - Kaggle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-07-19T21:37:41.314Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "certificates"
+    ],
+    "object_id": "2",
+    "object_repr": "Data Science(Intern) - Unified Mentors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Company logo\", \"CertificateImg big\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-07-20T20:04:01.686Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Resume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-07-20T20:05:31.214Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "intro"
+    ],
+    "object_id": "1",
+    "object_repr": "Intro Section",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Resume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-07-22T11:42:09.064Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-07-22T11:42:09.848Z",
+    "user": [
+      "portfolio"
+    ],
+    "content_type": [
+      "home",
+      "project"
+    ],
+    "object_id": "2",
+    "object_repr": "E-Learning Integrated system (Backend)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ProjectImg small\", \"ProjectImg big\", \"ProjectImg relative\"]}}]"
+  }
+}
+]
