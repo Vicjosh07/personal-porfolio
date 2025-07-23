@@ -1,11 +1,12 @@
 from django.db import models
+from cloudinary_storage.storage import RawMediaCloudinaryStorage
 
 # Create your models here.
 class Intro(models.Model):
     headline = models.CharField(max_length=200)
     profile_pic = models.ImageField(upload_to='personal/', blank=False, null=False)
     about = models.TextField()
-    resume = models.FileField(upload_to='personal/', blank=False, null=False)
+    resume = models.FileField(upload_to='personal/', blank=False, null=False, storage=RawMediaCloudinaryStorage())
 
     def __str__(self):
         return 'Intro Section'

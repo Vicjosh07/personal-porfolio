@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',  # Keep this in normal position
-    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary_storage',  # MUST come before staticfiles
     'cloudinary',
     'home'
 ]
@@ -109,24 +109,28 @@ else:
     }
     print("✅ Using SQLite database (development)")
 
-# Media files configuration - FIXED
+# Media files configuration - FIXED WITH NEW DJANGO 4.2+ STORAGES
 if not DEBUG:  # Production (DEBUG=False)
     print("🌍 Production mode - Using Cloudinary")
     
-    # Cloudinary configuration
-    import cloudinary
-    import cloudinary.uploader
-    import cloudinary.api
+    # Cloudinary Storage Configuration (NEW METHOD)
+    CLOUDINARY_STORAGE = {
+        "CLOUD_NAME": os.environ.get("CLOUDINARY_CLOUD_NAME"),
+        "API_KEY": os.environ.get("CLOUDINARY_API_KEY"),
+        "API_SECRET": os.environ.get("CLOUDINARY_API_SECRET"),
+    }
     
-    cloudinary.config(
-        cloud_name=os.environ.get('CLOUDINARY_CLOUD_NAME'),
-        api_key=os.environ.get('CLOUDINARY_API_KEY'),
-        api_secret=os.environ.get('CLOUDINARY_API_SECRET'),
-    )
+    # New Django 4.2+ Storage Configuration
+    STORAGES = {
+        "default": {
+            "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+        },
+    }
     
-    # Use Cloudinary for media files
-    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-    # DON'T set MEDIA_URL for Cloudinary - let it handle URLs automatically
+    MEDIA_URL = '/media/'  # Cloudinary folder path
     
 else:  # Development (DEBUG=True)
     print("🏠 Development mode - Using local media")
@@ -173,10 +177,12 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# Use WhiteNoise for static files (simpler configuration)
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# In settings.py production section
+print(f"Cloudinary Config: {os.environ.get('CLOUDINARY_CLOUD_NAME')}")
+print(f"DEBUG mode: {DEBUG}")
