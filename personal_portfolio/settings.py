@@ -82,18 +82,49 @@ WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 # Use PostgreSQL on Render, SQLite for local development
-if os.environ.get('DATABASE_URL'):
-    import dj_database_url
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
+DATABASE_URL = os.environ.get('DATABASE_URL')
+
+if DATABASE_URL:
+    try:
+        import dj_database_url
+        # Test the database URL parsing
+        db_config = dj_database_url.parse(DATABASE_URL)
+        
+        # Verify it's a PostgreSQL URL
+        if 'postgresql' in DATABASE_URL or 'postgres' in DATABASE_URL:
+            # Try to import PostgreSQL driver
+            try:
+                import psycopg2
+                print("✅ Using PostgreSQL with psycopg2")
+            except ImportError:
+                try:
+                    import psycopg
+                    print("✅ Using PostgreSQL with psycopg3")
+                except ImportError:
+                    raise ImportError("No PostgreSQL driver found (psycopg2 or psycopg)")
+        
+        DATABASES = {'default': db_config}
+        print(f"✅ Connected to: {db_config['ENGINE']}")
+        
+    except Exception as e:
+        print(f"❌ PostgreSQL setup failed: {e}")
+        print("🔄 Falling back to SQLite")
+        # Fallback to SQLite if PostgreSQL dependencies are missing
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': BASE_DIR / 'db.sqlite3',
+            }
+        }
 else:
+    # Development - SQLite
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
+    print("✅ Using SQLite database (development)")
 
 # Update your media files configuration section
 if os.environ.get('DATABASE_URL'):  # Production environment
