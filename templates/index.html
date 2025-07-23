@@ -1,4 +1,5 @@
 {% load static %}
+{% load cloudinary_extras %}
 <!DOCTYPE html>
 <html class="no-js ss-preload" lang="en">
     <head>
@@ -315,7 +316,7 @@
                                         </div>
                                         <p>
                                         <a href="{{cert.certificate_url}}" target="_blank">
-                                        <img src="{{cert.certificateImg_big.url}}" 
+                                        <img src="{{cert.certificateImg_big.url|cloudinary_resize:'w_2200,h_1400,c_fill'}}" 
                                         alt="Certificate image">  
                                         </a>
                                         </p>

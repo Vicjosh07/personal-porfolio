@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-3%*oowawirp%jvzdnmjbza7ri)949_g&=o)i+sn(avp2$%y(+q')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
+DEBUG = os.environ.get('DEBUG', 'True').lower() == 'true'  # Default to True for local
 
 ALLOWED_HOSTS = [
     'localhost', 
@@ -109,23 +109,28 @@ else:
     }
     print("✅ Using SQLite database (development)")
 
-# Update your media files configuration section
-if os.environ.get('DATABASE_URL'):  # Production environment
-    # Cloudinary settings
+# Media files configuration - FIXED
+if not DEBUG:  # Production (DEBUG=False)
+    print("🌍 Production mode - Using Cloudinary")
+    
+    # Cloudinary configuration
     import cloudinary
     import cloudinary.uploader
     import cloudinary.api
     
     cloudinary.config(
-        cloud_name=os.environ.get('CLOUDINARY_CLOUD_NAME', 'dckcfodho'),
-        api_key=os.environ.get('CLOUDINARY_API_KEY', '817991191364427'),
-        api_secret=os.environ.get('CLOUDINARY_API_SECRET', '5Jmew5dwPRI06V0J172imWhFHtk'),
+        cloud_name=os.environ.get('CLOUDINARY_CLOUD_NAME'),
+        api_key=os.environ.get('CLOUDINARY_API_KEY'),
+        api_secret=os.environ.get('CLOUDINARY_API_SECRET'),
     )
     
-    # Use Cloudinary for media files only
+    # Use Cloudinary for media files
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-    MEDIA_URL = '/media/'
-else:  # Development environment
+    # DON'T set MEDIA_URL for Cloudinary - let it handle URLs automatically
+    
+else:  # Development (DEBUG=True)
+    print("🏠 Development mode - Using local media")
+    
     # Local media files
     MEDIA_URL = '/media/'
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

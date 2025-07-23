@@ -1,5 +1,4 @@
 from django.db import models
-from PIL import Image
 
 # Create your models here.
 class Intro(models.Model):
@@ -104,17 +103,3 @@ class Certificates(models.Model):
         ordering = ['created_at']
         verbose_name = "6. Certificates"
         verbose_name_plural = "6. Certificates"
-    
-    def save(self, *args, **kwargs):
-        super().save(*args, **kwargs)
-
-        if self.certificateImg_big:
-            img_path = self.certificateImg_big.path
-            img = Image.open(img_path)
-
-            max_width = 2200
-            if img.width > max_width:
-                # ratio = max_width / img.width
-                new_size = (max_width, 1400)
-                img = img.resize(new_size, Image.Resampling.LANCZOS)
-                img.save(img_path)
