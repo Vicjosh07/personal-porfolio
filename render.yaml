@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: personal-portfolio
+    env: python
+    plan: starter
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn personal_portfolio.wsgi:application"
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: DJANGO_SETTINGS_MODULE
+        value: "personal_portfolio.settings"
+    autoDeploy: false
+
+databases:
+  - name: personal-portfolio-db
+    plan: starter

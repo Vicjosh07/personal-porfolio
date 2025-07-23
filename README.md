@@ -44,6 +44,7 @@ personal_portfolio/
 ├── requirements.txt            # Python dependencies
 ├── runtime.txt                 # Python version specification
 ├── build.sh                    # Render build script
+├── render.yaml                 # Render configuration file
 ├── Procfile                    # Heroku deployment configuration
 └── manage.py                   # Django management script
 ```
@@ -167,18 +168,32 @@ Your project is already configured for Render deployment with:
 - ✅ `requirements.txt` - Dependencies specification
 - ✅ `runtime.txt` - Python version specification (3.11.0)
 - ✅ `build.sh` - Render build script
+- ✅ `render.yaml` - Render configuration file
 - ✅ `gunicorn` - Production WSGI server
 - ✅ `whitenoise` - Static files serving
 - ✅ PostgreSQL support via `dj-database-url`
 
-#### Quick Render Deploy:
+#### Method 1: Using render.yaml (Recommended)
 
 1. **Push your code to GitHub**
    ```bash
    git add .
-   git commit -m "Prepare for Render deployment"
+   git commit -m "Deploy with render.yaml"
    git push origin main
    ```
+
+2. **Deploy via Render Dashboard**
+   - Go to [Render Dashboard](https://dashboard.render.com/)
+   - Click "New" → "Blueprint"
+   - Connect your GitHub repository (`personal-porfolio`)
+   - Render will automatically read your `render.yaml` and create services
+
+3. **Set Environment Variables** (if needed)
+   - `SECRET_KEY`: Will be auto-generated
+   - `DEBUG`: Already set to `False`
+   - Database will be automatically linked
+
+#### Method 2: Manual Configuration
 
 2. **Create Render Account & Connect Repository**
    - Go to [Render Dashboard](https://dashboard.render.com/)
