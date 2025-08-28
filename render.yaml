@@ -20,6 +20,6 @@ services:
         value: "5Jmew5dwPRI06V0J172imWhFHtk"
     autoDeploy: false
 
-databases:
-  - name: portfolio-db
-    plan: starter
+#databases:
+#  - name: portfolio-db
+#    plan: starter

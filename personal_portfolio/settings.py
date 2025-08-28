@@ -139,6 +139,12 @@ else:  # Development (DEBUG=True)
     MEDIA_URL = '/media/'
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+    CLOUDINARY_STORAGE = {
+        "CLOUD_NAME": "dummy",
+        "API_KEY": "dummy",
+        "API_SECRET": "dummy",
+    }
+
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 

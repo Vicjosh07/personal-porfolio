@@ -101,6 +101,6 @@ class Certificates(models.Model):
         return f'{self.title} - {self.company_name}'
     
     class Meta:
-        ordering = ['created_at']
+        ordering = ['-created_at']
         verbose_name = "6. Certificates"
         verbose_name_plural = "6. Certificates"

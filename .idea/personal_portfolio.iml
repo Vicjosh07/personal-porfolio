@@ -17,7 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/my_venv/Scripts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/my_venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (personal_portfolio)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at C:\Users\HP\Desktop\DeVs\Projects\official\personal_portfolio\my_venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
